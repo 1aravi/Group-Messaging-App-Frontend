@@ -15,7 +15,7 @@ const Register = ()=>{
     }
     const handleSubmit = e =>{
         e.preventDefault();
-        axios.post(`http://localhost:5000/register`, data)
+        axios.post(`https://mern-login-logout.herokuapp.com/register`, data)
         .then(
         res => alert(res.data)
         )

@@ -16,7 +16,7 @@ const Login = ()=>{
     }
     const handleSubmit = e =>{
         e.preventDefault();
-        axios.post(`http://localhost:5000/login`, data)
+        axios.post(`https://mern-login-logout.herokuapp.com/login`, data)
         .then(
         res => setToken(res.data.token)
         )
