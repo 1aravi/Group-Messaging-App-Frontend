@@ -49,7 +49,7 @@ const handleSubmit = e=>{
                 <br />
                 <div class="card" style={{ "width": "38rem", "textAlign": "left"}}>
                 
-                <div class="card-body" style={{background:"aqua"}}>
+                <div class="card-body" style={{background:"rgb(172, 214, 230)"}}>
                   {
                     allmsg.length>=1 ?
                     allmsg.map(message =>
@@ -63,12 +63,12 @@ const handleSubmit = e=>{
                     <h1>Message Loading...</h1>
                   }
                   <form onSubmit={handleSubmit}>
-                  <input type="text" placeholder ="type here" onChange={e =>setNewmsg(e.target.value)}/><br/><br/>
-                    <input type="submit" value="Send Message"  style={{background:"pink"}}/>
+                  <input type="text" placeholder ="type here" onChange={e =>setNewmsg(e.target.value)}/>
+                    <input type="submit" value="Send Message"  style={{background:""}}/>
                   </form>
                   <hr/>
                   <center>
-                    <button class="btn btn-primary" onClick={() => setToken(null)} style={{background:"yellow"}}><b>Logout</b></button></center>
+                    <button class="btn btn-primary" onClick={() => setToken(null)} style={{background:"aqua"}}><b>Logout</b></button></center>
                     
                 </div>
                 </div>

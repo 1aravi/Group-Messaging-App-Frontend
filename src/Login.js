@@ -30,10 +30,10 @@ return(
         <center>
         <form onSubmit={handleSubmit} autoComplete="off" >
             <h1 style={{color:"green"}}>Login</h1>
-            <input type="email" size="40" onChange={handleChange} name="email" placeholder="Email" style={{background:"aqua"}}/><br />
-            <input type="password" size="40" onChange={handleChange} name="password" placeholder="Password" style={{background:"aqua"}}/><br />
+            <input type="email" size="40" onChange={handleChange} name="email" placeholder="Email" style={{background:"greenyellow"}}/><br />
+            <input type="password" size="40" onChange={handleChange} name="password" placeholder="Password" style={{background:"greenyellow"}}/><br />
             <br />
-            <input type="submit" value="Login" style={{background:"yellow"}}/>
+            <input type="submit" value="Login" style={{background:"rgb(172, 214, 230)"}}/>
         </form>
         </center>
     </div>
